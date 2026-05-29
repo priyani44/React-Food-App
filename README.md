@@ -114,7 +114,7 @@ flowchart TD
 
 ---
 
-## 6) Cart state logic (important for interview)
+## 6) Cart state logic 
 
 `CartContext` uses `useReducer`.
 
@@ -290,7 +290,7 @@ Open the Vite URL and use the app.
 
 ---
 
-## 14) Current limitations (be honest in interview)
+## 14) Current limitations 
 
 - no authentication
 - no payment gateway
@@ -312,13 +312,6 @@ flowchart LR
   auth --> ordersApi[Add order history APIs]
   ordersApi --> payments[Integrate payment and notifications]
 ```
-
----
-
-## 16) Interview-ready project explanation (60-90 seconds)
-
-"This is a full-stack food ordering app built with React and Express. On the frontend, I use two contexts: one for cart data with a reducer and one for UI progress between cart and checkout modals. Meals are fetched through a reusable `useHttp` hook, and checkout submits order payload to the backend. On the backend, Express exposes `GET /meals` and `POST /orders`, validates incoming data, and stores orders in a JSON file. The project demonstrates component architecture, state management, API integration, and end-to-end request flow. If I take this to production, I would add environment-based config, database storage, auth, and stronger validation."
-
 ---
 
 ## 17) Final revision checklist
