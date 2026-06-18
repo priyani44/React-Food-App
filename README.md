@@ -313,14 +313,3 @@ flowchart LR
   ordersApi --> payments[Integrate payment and notifications]
 ```
 ---
-
-## 17) Final revision checklist
-
-- Understand provider tree in `App.jsx`
-- Understand reducer logic in `CartContext.jsx`
-- Understand request lifecycle in `useHttp.js`
-- Understand checkout payload creation in `Checkout.jsx`
-- Understand validation and write flow in `backend/app.js`
-- Understand limitations and improvements
-
-If you can explain these six points clearly, you can explain the full project confidently.
