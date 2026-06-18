@@ -1,8 +1,8 @@
-##🌐 Demo Link:
+## Demo Link:
 
 🔗 Live Demo: https://new-food-repo.vercel.app
 
-Explore the deployed application and test the food ordering workflow.
+🌐 Explore the deployed application and test the food ordering workflow.
 
 
 # Food App - Complete Project Explanation
